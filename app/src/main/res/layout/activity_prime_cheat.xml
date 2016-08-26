@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background_image"
+
+    tools:context="com.iiitd.apurupa.mcassignment2.primecheatquiz.PrimeCheatActivit"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/ScoretextView"
+        android:layout_gravity="top|left" />
+
+    <TextView
+        android:id="@+id/textViewer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/YesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trueText"
+
+            android:drawableStart="@drawable/tickm"
+
+            />
+        <Button
+            android:id="@+id/NoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/falseText"
+
+            android:drawableEnd="@drawable/crossm"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/NextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nextText"
+        android:drawableEnd="@drawable/next"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Hint"
+            android:id="@+id/HintButton"
+            android:drawableStart="@drawable/hint"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Cheat"
+            android:id="@+id/CheatButton"
+            android:layout_gravity="left"
+            android:drawableEnd="@drawable/answer"/>
+
+    </LinearLayout>
+
+</LinearLayout>

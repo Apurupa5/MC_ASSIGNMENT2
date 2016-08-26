@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PrimeNumberQuiz</string>
+    <string name="nextText">Next</string>
+    <string name="trueText">YES</string>
+    <string name="falseText">NO</string>
+    <string name="question">Is %1$d  a Prime Number?</string>
+
+    <string name="ScoreInfo">Score: %1$d / %2$d</string>
+
+    <string name="sucessMessage"> Correct Answer!!</string>
+    <string name="failureMessage">Wrong Answer!!</string>
+    <string name="ScoreMessage"> Your Score is: </string>
+    <string name="ShowHint">SHOW HINT</string>
+    <string name="ShowCheat">SHOW CHEAT</string>
+    <string name="Hint">HINT</string>
+    <string name="Cheat">CHEAT</string>
+    <string name="Back">BACK</string>
+
+</resources>
